@@ -1,0 +1,1091 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #2C5222;
+  
+}
+
+
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 40px;
+   
+  
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+ 
+}
+
+
+/* introduçao */
+.textoint{
+  color: #fff;
+  font-size: 50px;
+  margin-left: 200px;
+  margin-top: 100px;
+  
+}
+span{
+  color: #FFC300;
+
+}
+.conteinerbtn{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 15px;
+    color: #FFFFFF;
+   
+}
+.btnctt a, .btnprj a {
+  color: inherit; 
+  text-decoration: none;
+}
+.btnctt{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+     background-color: #E5B842; 
+  color: #1A331E; 
+    font-size: 16px;
+}
+.btnprj{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #3E6332; 
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 10px;
+    border: 2px solid #FFFFFF; 
+}
+
+.ferramentas
+{
+  margin-left: 200px;
+}
+
+.sobremim{
+    font-size: 13px;
+    color: white;
+    margin-left: 200px;
+      font-family: "JetBrains Mono", monospace;
+      margin-top: 200px;
+}
+.txtquem{
+  color: #fff;
+  font-size: 50px;
+  margin-left: 200px;
+}
+.txtapresentaçao{
+    color: white;
+
+       margin: 0 auto; 
+      width: 75%;
+}
+
+.flex
+{
+  display: flex;
+  width: 100%;
+  margin-left: 200px;
+}
+
+.flex2
+{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 200px;
+}
+
+.flex2>div{
+  width: 50%;
+}
+
+#apresentaçao
+{
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.txtapresentaçao p {
+  margin-bottom: 24px; 
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5; 
+}
+.jojo{
+
+  top: 6vh;
+  margin-top: -10rem;
+}
+#imgminha
+{
+  width: 400px;
+  height: 500px;
+  border-radius: 10%;
+ 
+}
+.conteinerblocos{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+   
+   font-family: "JetBrains Mono", monospace;
+
+
+}
+
+
+
+.bloquinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+     background-color: #3E6332; 
+}
+.titulo{
+    font-size: 11px;
+  color: #888888; 
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.txtbloco{
+    font-size: 14px;
+      color: #FFFFFF;
+    font-weight: bold;
+}
+.Habilidade{
+    font-size: 13px;
+    color: white;
+    margin-left: 200px;
+      font-family: "JetBrains Mono", monospace;
+      margin-top: 200px;
+}
+.txthbl{ 
+  color: #fff;
+  font-size: 45px;
+
+   font-family: "JetBrains Mono", monospace;
+    margin-top: 10px;
+    margin-left: 200px; 
+}
+
+.txtsoft{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16PX;
+    color: #FFFFFF;
+    margin-top: 30px;
+
+    
+}
+.conteinersoft{
+    display: flex;
+    justify-content: left;
+    gap: 16px;  
+    font-family: "JetBrains Mono", monospace;
+
+     
+     flex-wrap: wrap; 
+
+     margin-top: 200px;
+      
+}
+
+.containerferramentas
+{
+  width: 50%;
+}
+
+.blq{
+    display: flex;
+    width: 250px; 
+    height: 120px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #888888; 
+    font-size: 13px;  
+   flex-direction: column;    
+   justify-content: center;   
+   align-items: flex-start;  
+   padding-left: 24px;        
+}
+.txtblq{
+    margin-top: 15px;
+}
+.ferramentas {
+  color: #FFFFFF;
+  margin-top:10px;
+  text-align: center; 
+  font-family: "JetBrains Mono", monospace;
+}
+
+
+
+
+
+.blocofrm {
+
+
+  gap: 12px;     
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;      
+}
+
+
+.txtfrm {
+  display: inline-flex;
+justify-content: center;
+  padding: 8px 16px;    
+  
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  background-color: #161b17;
+  color: #a3b8a4;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+}
+.txthard{
+
+  margin-left: 200px;
+  color: #ffffff;
+
+}
+
+/* Fundo geral (opcional, caso já não esteja no seu body) */
+body {
+  background-color: #2d4a1e;
+  color: #ffffff;
+  font-family: 'Consolas', 'Courier New', monospace; /* Fonte monoespaçada igual ao seu site */
+  margin: 0;
+  padding: 0px;
+}
+
+.projetos-section {
+  max-width: 1200px;
+  margin: 60px auto 0 auto;
+}
+
+/* Cabeçalho */
+.header-projetos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sub-titulo {
+  color: #eab308; /* Amarelo destaque */
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-projetos h2 {
+  font-size: 2.5rem;
+  margin: 8px 0 0 0;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.header-projetos h2 span {
+  color: #eab308; /* Palavra "construí" em amarelo */
+  font-style: normal;
+  font-weight: 700;
+}
+
+.btn-github {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.btn-github:hover {
+  background: #eab308;
+  color: #1c1c1c;
+  border-color: #eab308;
+}
+
+/* Grelha de Cartões */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+/* Estilo do Cartão combinando com seus cards de Soft Skills */
+.card {
+  background-color: rgba(0, 0, 0, 0.18); /* Verde mais escuro translúcido */
+  border: 1px solid rgba(255, 255, 255, 0.45); /* Borda clara igual aos seus cards */
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #eab308;
+  transform: translateY(-4px);
+}
+
+/* Topo do Cartão (Ícone, Ano e Badge) */
+.card-topo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.icone-status {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 12px;
+}
+.icone-status.roxo { background-color: #eab308; } /* Trocado para amarelo */
+.icone-status.verde { background-color: #4ade80; }
+.icone-status.laranja { background-color: #fb923c; }
+
+.ano {
+  color: #d1d5db;
+  font-size: 0.85rem;
+  margin-right: auto;
+}
+
+/* Badges de Estado */
+.badge, .badgeopensource {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.badge.concluido { 
+  background: rgba(234, 179, 8, 0.2); 
+  color: #fde047; 
+  border: 1px solid rgba(234, 179, 8, 0.4);
+}
+.badge.producao { 
+  background: rgba(74, 222, 128, 0.2); 
+  color: #86efac; 
+  border: 1px solid rgba(74, 222, 128, 0.4);
+}
+.badgeopensource { 
+  background: rgba(251, 146, 60, 0.2); 
+  color: #fdba74; 
+  border: 1px solid rgba(251, 146, 60, 0.4);
+}
+
+/* Textos do Cartão */
+.card h3 {
+  font-size: 1.25rem;
+  margin: 0 0 10px 0;
+  color: #ffffff;
+}
+
+.card p {
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+/* Etiquetas (Tags) inferiores estilo barras de Hard Skills */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  background-color: #1c1c1c; /* Mesmo fundo escuro das suas barras de Hard Skills */
+  color: #eab308; /* Texto amarelo para destacar */
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+/* Remove os sublinhados azuis e mantém o alinhamento */
+.card-link,
+.card-link * {
+  text-decoration: none !important;
+}
+
+.card-link {
+  color: inherit;
+  display: flex; /* Faz o link esticar para acompanhar a altura dos outros cards */
+}
+
+/* Garante que o cartão preencha 100% do link e todos fiquem da mesma altura */
+.card {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Força os 3 cartões a ficarem retos na mesma linha em telas grandes */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas exatas e iguais */
+  gap: 24px;
+  align-items: stretch; /* Deixa todos com a mesma altura */
+}
+
+/* Em telas menores (celular/tablet), organiza automaticamente */
+@media (max-width: 900px) {
+  .grid-cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+.contato-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  font-family: 'Consolas', 'Courier New', monospace;
+  color: #ffffff;
+}
+
+/* Cabeçalho */
+.header-contato {
+  margin-bottom: 40px;
+}
+
+.sub-titulo {
+  color: #eab308; /* Amarelo destaque */
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-contato h2 {
+  font-size: 2.5rem;
+  margin: 8px 0;
+  font-weight: 700;
+}
+
+.header-contato h2 span {
+  color: #eab308;
+}
+
+.descricao-contato {
+  color: #d1d5db;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Layout de Duas Colunas */
+.contato-conteudo {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+@media (max-width: 900px) {
+  .contato-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Formulário */
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campo-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.campo-grupo label {
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  color: #9ca3af;
+}
+
+.campo-grupo input,
+.campo-grupo textarea {
+  background-color: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.campo-grupo input:focus,
+.campo-grupo textarea:focus {
+  border-color: #eab308;
+}
+
+.campo-grupo textarea {
+  resize: vertical;
+}
+
+/* Botão Enviar */
+.btn-enviar {
+  background-color: #eab308;
+  color: #1c1c1c;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 20px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.btn-enviar:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Links Diretos à Direita */
+.info-direta {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.titulo-direto {
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.card-contato-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-contato {
+  background-color: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: all 0.2s;
+}
+
+.card-contato-link:hover .card-contato {
+  border-color: #eab308;
+  transform: translateY(-2px);
+}
+
+.card-contato .rotulo {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: #9ca3af;
+}
+
+.card-contato .valor {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+/* =====================================
+   RESPONSIVIDADE GERAL
+===================================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    .textoint,
+    .txtquem,
+    .txthbl,
+    .Habilidade,
+    .sobremim,
+    .txthard {
+        margin-left: 40px;
+    }
+
+    .conteinerbtn {
+        margin-left: 40px;
+    }
+
+    .flex {
+        margin-left: 0;
+        padding: 0 40px;
+    }
+
+    .flex2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .containerferramentas {
+        width: 100%;
+    }
+
+    .conteinersoft {
+        margin-top: 60px;
+    }
+
+    .footer {
+        margin-left: 0;
+    }
+}
+
+/* =====================================
+   CELULARES
+===================================== */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0;
+        height: auto;
+    }
+
+    /* Cabeçalho */
+
+    .cabecalho {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .menu ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    /* Introdução */
+
+    .textoint {
+        font-size: clamp(28px, 7vw, 40px);
+        margin: 60px 20px 0;
+        text-align: center;
+    }
+
+    .conteinerbtn {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 25px 15px;
+    }
+
+    .btnctt,
+    .btnprj {
+        width: 140px;
+    }
+
+    /* Sobre mim */
+
+    #apresentaçao {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .sobremim {
+        margin: 0 20px 15px;
+    }
+
+    .txtquem {
+        font-size: 35px;
+        margin: 0 20px 25px;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+        gap: 30px;
+    }
+
+    .flex2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .flex2 > div {
+        width: 100%;
+    }
+
+    .txtapresentaçao {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .txtapresentaçao p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .jojo {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #imgminha {
+        width: 280px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 10%;
+    }
+
+    /* Blocos */
+
+    .conteinerblocos {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 15px;
+    }
+
+    .bloquinho {
+        width: 140px;
+    }
+
+    /* Habilidades */
+
+    .Habilidade {
+        margin: 100px 20px 15px;
+    }
+
+    .txthbl {
+        font-size: 32px;
+        margin: 0 20px;
+    }
+
+    .conteinersoft {
+        justify-content: center;
+        margin: 50px 20px;
+        gap: 15px;
+    }
+
+    .blq {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .containerferramentas {
+        width: 100%;
+    }
+
+    .ferramentas {
+        margin: 20px 0;
+    }
+
+    .blocofrm {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .txthard {
+        margin: 0 20px;
+    }
+
+    /* Projetos */
+
+    .projetos-section {
+        margin: 80px 20px 0;
+    }
+
+    .header-projetos {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-projetos h2 {
+        font-size: 30px;
+    }
+
+    .grid-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    /* Contato */
+
+    .contato-section {
+        margin: 80px auto;
+        padding: 0 20px;
+    }
+
+    .header-contato h2 {
+        font-size: 30px;
+    }
+
+    .contato-conteudo {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .campo-grupo input,
+    .campo-grupo textarea {
+        width: 100%;
+    }
+
+    /* Rodapé */
+
+    footer {
+        width: 100%;
+        height: auto;
+        margin: 50px 0 0;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+/* =====================================
+   CELULARES PEQUENOS
+===================================== */
+
+@media (max-width: 380px) {
+
+    .textoint {
+        font-size: 27px;
+    }
+
+    .menu ul {
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .txtquem,
+    .txthbl {
+        font-size: 28px;
+    }
+
+    .btnctt,
+    .btnprj {
+        width: 125px;
+        font-size: 14px;
+    }
+
+    .bloquinho {
+        width: 125px;
+    }
+
+    .header-projetos h2,
+    .header-contato h2 {
+        font-size: 26px;
+    }
+}
+
+/* Cursor do efeito de digitação */
+
+.cursor-digitacao {
+    color: #FFC300;
+    animation: piscar 0.7s infinite;
+}
+
+@keyframes piscar {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Animação ao rolar a página */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Respeita quem prefere menos animações */
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .cursor-digitacao {
+        animation: none;
+    }
+}
+
+
+
+
+/* ===== BARRA DE PROGRESSO ===== */
+
+#progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: #f0b900;
+    z-index: 99999;
+    transition: width 0.1s ease;
+}
+
+/* ===== RODAPÉ ===== */
+
+/* ===== RODAPÉ ===== */
+
+.footer {
+  background: #1f3315;
+  border-top: 1px solid #3f6a2c;
+  padding: 40px 20px;
+  margin: 100px 0 0;
+  width: 100%;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  text-align: left;
+}
+
+.footer-brand h3 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin: 0 0 6px;
+}
+
+.footer-brand h3 span {
+  color: #f5c400;
+}
+
+.footer-brand p,
+.footer-copy {
+  color: #8fb07a;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-nav a {
+  color: #8fb07a;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+  color: #f5c400;
+}
+
+.footer-nav .github {
+  color: #f5c400;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-brand {
+    text-align: center;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
